@@ -51,6 +51,7 @@ body {
 
 .top .container {
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
@@ -110,6 +111,7 @@ button.sign-up {
     justify-content: center;
     gap: 48px;
     padding-bottom: 120px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -130,6 +132,38 @@ button.sign-up {
     height: 140px;
     border-radius: 12px;
     margin-bottom: 8px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.quote .container {
+    max-width: 760px;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .text {
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote .from {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
 }
 
 button {
