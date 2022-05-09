@@ -6,7 +6,8 @@ body {
 }
 
 .header,
-.top {
+.top,
+.footer {
     background: #1f2937;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
@@ -164,6 +165,57 @@ button.sign-up {
     font-size: 24px;
     font-weight: 700;
     align-self: flex-end;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.bottom .action{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    gap: 120px;
+    padding: 45px 120px;
+}
+
+.action .title {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.action .text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.action button {
+    max-height: 54px;
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer {
+    color: #e5e7eb;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 button {
